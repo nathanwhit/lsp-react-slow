@@ -1,0 +1,19 @@
+{
+  "importMap": "import_map.json",
+  "tasks": {
+    "dev": "deno run --allow-env --watch main.tsx",
+    "test": "deno test --coverage=coverage --allow-read --allow-write --allow-net --allow-env --allow-run && deno coverage coverage"
+  },
+  "fmt": {
+    "indentWidth": 2,
+    "lineWidth": 80,
+    "semiColons": false,
+    "singleQuote": true,
+    "useTabs": false
+  },
+  "compilerOptions": {
+    "lib": ["deno.ns", "deno.unstable", "dom", "esnext"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "~/": "./src/",
+    "@std/testing/bdd": "jsr:@std/testing@^0.224.0/bdd",
+    "chai": "https://esm.sh/chai@4.3.10?target=deno",
+    "react": "npm:react@^18.2",
+    "react/jsx-runtime": "npm:react@^18.2/jsx-runtime",
+    "react-dom/client": "npm:react-dom@^18.2/client"
+  }
+}
