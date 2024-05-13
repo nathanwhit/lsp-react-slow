@@ -199,7 +199,7 @@ export function styled<
 
     return React.createElement(
       ComponentOrElementType,
-      { className: finalClassName, ref, style: inlineStyles, ...rest },
+      { className: finalClassName, ref, style: inlineStyles, ...rest } as any,
       children,
     )
   })
